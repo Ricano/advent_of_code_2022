@@ -1,4 +1,4 @@
-from inputs import d1_list
+from inputs.d1 import d1_list
 
 
 def resolve_day1():
