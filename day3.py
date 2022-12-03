@@ -24,17 +24,36 @@ def resolve_day3():
                 break
 
     total = 0
-    for letter in priorities:
+    for letter in repeated_list:
+
         total += priorities[letter]
 
+    group3 = []
+    for i in range(int(len(d3_list)/3)):
+        h = d3_list[0:3]
+        d3_list.remove(d3_list[0])
+        d3_list.remove(d3_list[0])
+        d3_list.remove(d3_list[0])
+        group3.append(h)
 
-    print(ord('a'))
-    print(ord('b'))
-    print(ord('Z'))
-    print(ord('A'))
-    print(len(repeated_list))
-    print(repeated_list)
-    print(d3_list[0])
-    print(new_list[0][0])
-    print(new_list[0][1])
-    print("TOTAL: ", total)
+    badges_list = []
+    for group in group3:
+        elf1 = group[0]
+        elf2 = group[1]
+        elf3 = group[2]
+        for item in elf1:
+            if item in elf2 and item in elf3:
+                badges_list.append(item)
+                break
+
+    badges_total = 0
+    for letter in badges_list:
+        badges_total += priorities[letter]
+
+    print("len GRoup3: ", len(group3))
+    print("GRoup3: ", group3)
+    print("LEN item list: ", len(badges_list))
+    print("ITEM LIST: ", badges_list)
+
+    print("P1 TOTAL: ", total)
+    print("P2 TOTAL: ", badges_total)
