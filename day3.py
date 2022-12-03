@@ -50,10 +50,10 @@ def resolve_day3():
     for letter in badges_list:
         badges_total += priorities[letter]
 
-    print("len GRoup3: ", len(group3))
-    print("GRoup3: ", group3)
-    print("LEN item list: ", len(badges_list))
-    print("ITEM LIST: ", badges_list)
+    # print("len GRoup3: ", len(group3))
+    # print("GRoup3: ", group3)
+    # print("LEN item list: ", len(badges_list))
+    # print("ITEM LIST: ", badges_list)
 
-    print("P1 TOTAL: ", total)
-    print("P2 TOTAL: ", badges_total)
+    print("D3P1: ", total)
+    print("D3P2: ", badges_total)

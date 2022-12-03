@@ -87,5 +87,5 @@ def resolve_day2():
 
         score2 += SCORES[me] + game_result(me, opponent)
 
-    print("FINAL SCORE1:", score)
-    print("FINAL SCORE2:", score2)
+    print("D2P1:", score)
+    print("D2P2:", score2)
