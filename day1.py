@@ -39,6 +39,5 @@ def resolve_day1():
     # print("MAX TOTAL CALORIES CARRIED BY ONE ELF: ", max)
     # print("TOTAL CALORIES CARRIED BY TOP 3 ELVES: ", top3)
     #
-    print("D1P1:", max)
-    print("D1P2:", top3)
+    print("Day 1 - ", "D1P1:", max, " D1P2:", top3)
 

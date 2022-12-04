@@ -55,5 +55,4 @@ def resolve_day3():
     # print("LEN item list: ", len(badges_list))
     # print("ITEM LIST: ", badges_list)
 
-    print("D3P1: ", total)
-    print("D3P2: ", badges_total)
+    print("Day 3 - ", "D3P1: ", total, " D3P2: ", badges_total)

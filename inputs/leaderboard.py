@@ -3,43 +3,43 @@ leaderboard = {
     "event": "2022",
     "members": {
         "745454": {
-            "stars": 2,
+            "name": "Rui Rei",
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "star_index": 171063,
-                        "get_star_ts": 1669945170
+                        "get_star_ts": 1669945170,
+                        "star_index": 171063
                     },
                     "2": {
-                        "star_index": 290863,
-                        "get_star_ts": 1669974661
+                        "get_star_ts": 1669974661,
+                        "star_index": 290863
                     }
                 }
             },
+            "last_star_ts": 1669974661,
+            "stars": 2,
             "global_score": 0,
-            "name": "Rui Rei",
             "local_score": 9,
-            "id": 745454,
-            "last_star_ts": 1669974661
+            "id": 745454
         },
         "806047": {
+            "name": "Gustavo Lima",
             "completion_day_level": {
 
             },
-            "global_score": 0,
-            "name": "Gustavo Lima",
-            "stars": 0,
             "last_star_ts": 0,
+            "stars": 0,
+            "local_score": 0,
             "id": 806047,
-            "local_score": 0
+            "global_score": 0
         },
         "1719951": {
             "name": "Diogo Bastos",
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "star_index": 282853,
-                        "get_star_ts": 1669973259
+                        "get_star_ts": 1669973259,
+                        "star_index": 282853
                     },
                     "2": {
                         "get_star_ts": 1669973512,
@@ -48,22 +48,38 @@ leaderboard = {
                 },
                 "2": {
                     "1": {
-                        "get_star_ts": 1669975312,
-                        "star_index": 294419
+                        "star_index": 294419,
+                        "get_star_ts": 1669975312
                     },
                     "2": {
                         "get_star_ts": 1669975550,
                         "star_index": 295676
                     }
+                },
+                "3": {
+                    "1": {
+                        "star_index": 636099,
+                        "get_star_ts": 1670076553
+                    },
+                    "2": {
+                        "get_star_ts": 1670084690,
+                        "star_index": 664937
+                    }
                 }
             },
+            "stars": 6,
+            "last_star_ts": 1670084690,
             "global_score": 0,
-            "stars": 4,
-            "local_score": 23,
-            "id": 1719951,
-            "last_star_ts": 1669975550
+            "local_score": 33,
+            "id": 1719951
         },
         "1832445": {
+            "last_star_ts": 1670148591,
+            "stars": 8,
+            "local_score": 66,
+            "global_score": 0,
+            "id": 1832445,
+            "name": "Diogo Santos",
             "completion_day_level": {
                 "1": {
                     "1": {
@@ -71,8 +87,8 @@ leaderboard = {
                         "get_star_ts": 1669889769
                     },
                     "2": {
-                        "get_star_ts": 1669889951,
-                        "star_index": 682
+                        "star_index": 682,
+                        "get_star_ts": 1669889951
                     }
                 },
                 "2": {
@@ -87,58 +103,58 @@ leaderboard = {
                 },
                 "3": {
                     "1": {
-                        "star_index": 559768,
-                        "get_star_ts": 1670057249
+                        "get_star_ts": 1670057249,
+                        "star_index": 559768
                     },
                     "2": {
-                        "get_star_ts": 1670057987,
-                        "star_index": 562643
+                        "star_index": 562643,
+                        "get_star_ts": 1670057987
+                    }
+                },
+                "4": {
+                    "1": {
+                        "star_index": 855395,
+                        "get_star_ts": 1670148396
+                    },
+                    "2": {
+                        "star_index": 856335,
+                        "get_star_ts": 1670148591
                     }
                 }
-            },
-            "name": "Diogo Santos",
-            "global_score": 0,
-            "stars": 6,
-            "last_star_ts": 1670057987,
-            "local_score": 50,
-            "id": 1832445
+            }
         },
         "1848745": {
+            "last_star_ts": 0,
+            "stars": 0,
             "local_score": 0,
             "id": 1848745,
-            "last_star_ts": 0,
+            "global_score": 0,
             "name": "Joao Rodrigues",
             "completion_day_level": {
 
-            },
-            "global_score": 0,
-            "stars": 0
+            }
         },
         "1852639": {
+            "id": 1852639,
+            "local_score": 0,
+            "global_score": 0,
+            "last_star_ts": 0,
             "stars": 0,
             "completion_day_level": {
 
             },
-            "global_score": 0,
-            "name": "luisfilipedcc",
-            "last_star_ts": 0,
-            "local_score": 0,
-            "id": 1852639
+            "name": "luisfilipedcc"
         },
         "2339302": {
-            "last_star_ts": 1670069735,
-            "local_score": 42,
-            "id": 2339302,
-            "name": "Ricardo Caetano",
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "star_index": 36787,
-                        "get_star_ts": 1669900697
+                        "get_star_ts": 1669900697,
+                        "star_index": 36787
                     },
                     "2": {
-                        "star_index": 39397,
-                        "get_star_ts": 1669901478
+                        "get_star_ts": 1669901478,
+                        "star_index": 39397
                     }
                 },
                 "2": {
@@ -147,8 +163,8 @@ leaderboard = {
                         "star_index": 370945
                     },
                     "2": {
-                        "get_star_ts": 1670008597,
-                        "star_index": 429275
+                        "star_index": 429275,
+                        "get_star_ts": 1670008597
                     }
                 },
                 "3": {
@@ -160,18 +176,37 @@ leaderboard = {
                         "star_index": 610716,
                         "get_star_ts": 1670069735
                     }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": 1670150249,
+                        "star_index": 864652
+                    },
+                    "2": {
+                        "star_index": 866302,
+                        "get_star_ts": 1670150577
+                    }
                 }
             },
+            "name": "Ricardo Caetano",
             "global_score": 0,
-            "stars": 6
+            "local_score": 56,
+            "id": 2339302,
+            "stars": 8,
+            "last_star_ts": 1670150577
         },
         "2432489": {
-            "stars": 4,
+            "last_star_ts": 1670132289,
+            "stars": 8,
+            "local_score": 60,
+            "id": 2432489,
+            "global_score": 0,
+            "name": "Alexandre Meneses",
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "star_index": 79786,
-                        "get_star_ts": 1669912382
+                        "get_star_ts": 1669912382,
+                        "star_index": 79786
                     },
                     "2": {
                         "star_index": 80180,
@@ -187,20 +222,41 @@ leaderboard = {
                         "get_star_ts": 1669964416,
                         "star_index": 235153
                     }
+                },
+                "3": {
+                    "1": {
+                        "get_star_ts": 1670075631,
+                        "star_index": 632735
+                    },
+                    "2": {
+                        "get_star_ts": 1670078073,
+                        "star_index": 641663
+                    }
+                },
+                "4": {
+                    "1": {
+                        "get_star_ts": 1670132226,
+                        "star_index": 790247
+                    },
+                    "2": {
+                        "star_index": 790678,
+                        "get_star_ts": 1670132289
+                    }
                 }
-            },
-            "global_score": 0,
-            "name": "Alexandre Meneses",
-            "last_star_ts": 1669964416,
-            "id": 2432489,
-            "local_score": 30
+            }
         },
         "2434692": {
+            "last_star_ts": 1670045753,
+            "stars": 6,
+            "local_score": 42,
+            "global_score": 0,
+            "id": 2434692,
+            "name": "Vasco Teixeira",
             "completion_day_level": {
                 "1": {
                     "1": {
-                        "get_star_ts": 1669908581,
-                        "star_index": 65873
+                        "star_index": 65873,
+                        "get_star_ts": 1669908581
                     },
                     "2": {
                         "get_star_ts": 1669909019,
@@ -209,31 +265,25 @@ leaderboard = {
                 },
                 "2": {
                     "1": {
-                        "get_star_ts": 1670034760,
-                        "star_index": 486531
+                        "star_index": 486531,
+                        "get_star_ts": 1670034760
                     },
                     "2": {
-                        "get_star_ts": 1670036072,
-                        "star_index": 487850
+                        "star_index": 487850,
+                        "get_star_ts": 1670036072
                     }
                 },
                 "3": {
                     "1": {
-                        "get_star_ts": 1670044975,
-                        "star_index": 508809
+                        "star_index": 508809,
+                        "get_star_ts": 1670044975
                     },
                     "2": {
                         "get_star_ts": 1670045753,
                         "star_index": 515964
                     }
                 }
-            },
-            "name": "Vasco Teixeira",
-            "global_score": 0,
-            "stars": 6,
-            "last_star_ts": 1670045753,
-            "id": 2434692,
-            "local_score": 42
+            }
         }
     }
 }
