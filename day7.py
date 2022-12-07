@@ -1,34 +1,34 @@
-from inputs.d7 import d7_list
-
-dict_tree = {"/": []}
-
-current = None
-previous = None
-
-
 def resolve_day7():
-    for x in d7_list:
-        start = x.split(" ")[0]
-        if start == "$":
-            # check command
-            command = x.split(" ")[1]
-            if command == "cd":
-                end = x.split(" ")[2]
-                if end == "/":
-                    current = "/"
-                    previous = None
-                elif end == "..":
-                    current = previous
-                else:
-                    previous = dict_tree[current]
-                    current = previous[end]
-            elif command == "ls":
-                continue
-        elif start == "dir":
-            dir = x.split(" ")[1]
-            dict_tree[current].append({dir:[]})
+    stack = []
+    sizes = []
 
-        print(dict_tree)
+    def up():
+        sizes.append(stack.pop(-1))
+        if stack:
+            stack[-1] += sizes[-1]
+
+    for line in open("inputs/7.in").readlines():
+        print(stack)
+
+        match line.strip().split():
+            case "$", "cd", "..":
+                up()
+            case "$", "cd", _:
+                stack.append(0)
+            case "$", _:
+                pass
+            case "dir", _:
+                pass
+            case size, _:
+                stack[-1] += int(size)
+
+    while stack:
+        up()
+
+    print(stack)
+    print(sizes)
+    print(sum(s for s in sizes if s <= 100000))
+    print(min(s for s in sizes if s >= (max(sizes) - 40000000)))
 
 
 resolve_day7()
