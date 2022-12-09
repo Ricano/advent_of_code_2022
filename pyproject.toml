@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "advent-of-code-2022"
+name = "advent-of-code"
 version = "0.1.0"
 description = ""
-authors = ["Ricardo Caetano <ricardo.caetano@fabamaq.com>"]
+authors = ["ricano <depoisdizcomofoi@gmail.com>"]
 readme = "README.md"
-packages = [{include = "advent_of_code_2022"}]
+packages = [{include = "advent_of_code"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
-aocutil = "^0.1.0"
+python = "^3.11"
+pandas = "^1.5.2"
 
 
 [build-system]
